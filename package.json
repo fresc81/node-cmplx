@@ -1,0 +1,18 @@
+{
+  "name": "cmplx",
+  "version": "0.0.1",
+  "description": "calculations with complex numbers in arithmetic or polar form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "math",
+    "complex",
+    "arithmetic",
+    "polar"
+  ],
+  "author": "Paul Bottin",
+  "license": "BSD"
+}
