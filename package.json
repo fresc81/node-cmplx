@@ -1,12 +1,12 @@
 {
   "name": "cmplx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "calculations with complex numbers in arithmetic or polar form",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "repository": "",
+  "repository": "https://github.com/fresc81/node-cmplx.git",
   "keywords": [
     "math",
     "complex",
