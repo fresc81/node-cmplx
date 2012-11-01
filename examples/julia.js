@@ -1,3 +1,4 @@
+
 /*
  * computes the Mandelbrot Set for the given parameters using complex numbers and prints it to the console
  */
