@@ -3,7 +3,7 @@
  * computes the Mandelbrot Set for the given parameters using complex numbers and prints it to the console
  */
 
-var cmplx = require('../lib/cmplx')
+var cmplx = require('..')
 
 ,	depth = 16
 ,	width = 128
@@ -27,14 +27,14 @@ for (var x=0; x<width; x++) {
 		var b = y * yScale + yOffset
 		,	i = y * width + x
 		,	c = cmplx.Arith(a, b)
-		,	z = cmplx.ZERO
+		,	z = cmplx.ZERO.toArith()
 		;
 		
 		julia[i] = ' ';
 		for (var n = 0; n<depth; n++) {
 			
 			// z1 = z0 ^ 2 + c
-			z = z.mul(z).add(c);
+			z.mulInline(z).addInline(c);
 			
 			// |z| > 2
 			if (z.radius > 2) {

@@ -1,6 +1,6 @@
 {
   "name": "cmplx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "calculations with complex numbers in arithmetic or polar form",
   "main": "index.js",
   "scripts": {
